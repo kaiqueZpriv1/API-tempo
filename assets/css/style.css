@@ -65,6 +65,12 @@ body{
 #weather-data span{
     margin:  0.6rem;
 }
+#pais{
+    position: relative;
+    font-size: 1.8vw;
+    left: -10px;
+    top: 3px;
+}
 #country{
     height: 15px;
 }
@@ -84,4 +90,10 @@ body{
     border-right: 1px solid #fafafa;
     margin: 0.6rem;
     padding: 0.6rem;
+}
+#coord{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
